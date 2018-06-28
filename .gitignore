@@ -34,6 +34,17 @@ build/Release
 
 # Dependency directories
 node_modules/
+# Bower dependency directory (https://bower.io/)
+bower_components
+
+# node-waf configuration
+.lock-wscript
+
+# Compiled binary addons (https://nodejs.org/api/addons.html)
+build/Release
+
+# Dependency directories
+node_modules/
 **/node_modules/
 jspm_packages/
 
@@ -61,3 +72,6 @@ typings/
 
 # next.js build output
 .next
+
+.vscode/
+test.js
